@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  // On utilise l'URL de production de Render
+  // On met l'URL en dur pour être sûr
   baseURL: 'https://sn-livraison-backend.onrender.com',
 });
 
